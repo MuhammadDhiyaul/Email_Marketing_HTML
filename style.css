@@ -20,7 +20,7 @@ body{
 .container .banner {
     background-image: url('Asset 21.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,21 +28,20 @@ body{
 .container .content1 {
     background-image: url('Asset 22.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
 }
 
-
-
 .container .content2 {
     background-image: url('Asset 24.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
+
 }
 
 h4 {
@@ -59,7 +58,7 @@ td {
 }
 
 .container .image-tim {
-    max-width:800px;
+    padding: auto;
     margin-top: 10px;
     margin-left: 80px;
     margin-right: 80px;
