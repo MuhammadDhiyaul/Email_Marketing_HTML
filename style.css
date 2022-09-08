@@ -1,0 +1,105 @@
+html{
+    font-family: 'Lato';
+    scroll-behavior: smooth;
+}
+body{
+   background-color: #ffff;
+}
+
+.container{
+    background-color: #f2f5fe;
+    max-width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .logo {
+    background-color: #f2f5fe;
+}
+
+.container .banner {
+    background-image: url('Asset 21.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .content1 {
+    background-image: url('Asset 22.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+.container .content2 {
+    background-image: url('Asset 24.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h4 {
+    color: black;
+    text-align: left;
+}
+
+tr {
+    padding: 0;
+}
+
+td {
+    padding: 0;
+}
+
+.container .image-tim {
+    max-width:800px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: -10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container .daftar {
+    background-image: url('Asset 27.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width:800px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: solid #ffff;
+    border-radius: 60px;
+    padding: 14px 25px;
+}
+
+.container .button:hover {
+    background-color: #82a1ff;
+    color: white;
+    border: solid #ffff;
+}
+
+.container .footer {
+    background-color: #f2f5fe; 
+    text-align: center; 
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.container .footer .social {
+    padding-right: 30px;
+}
