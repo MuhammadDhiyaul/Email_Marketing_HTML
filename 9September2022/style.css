@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    background-color: #ffffff;
+    background-color: #ffff;
     max-width:800px;
     margin-left: auto;
     margin-right: auto;
@@ -17,28 +17,30 @@ body{
     background-image: url('EMAIL SEPT/Mask\ Group\ 37.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 33px;
 }
 
-.container .content1 {
-    /* background-image: url('EMAIL SEPT/Rectangle 120.png'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+.container .content {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .container .content2 {
-    /* background-image: url('EMAIL SEPT/Rectangle 120.png'); */
+    background-image: url('EMAIL SEPT/Rectangle\ 120.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 20px;
+}
 
+.container .content2 .image1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container .content2 .image2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 120px;
 }
 
 h4 {
@@ -57,16 +59,6 @@ td {
 img {
     max-width: 50%;
     padding: 10px;
-}
-
-.container .daftar {
-    background-image: url('EMAIL SEPT/Rectangle 120.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 20px;
 }
 
 button {
